@@ -310,7 +310,7 @@ const WholeSite = () => {
                   onClick={() => scrollToSection("contact")}
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
                 >
-                  Start Your Project
+                  Connect With Us
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button className="border border-gray-600 hover:border-gray-500 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-gray-800 flex items-center justify-center group">
@@ -405,7 +405,7 @@ const WholeSite = () => {
 
               <div className="space-y-4">
                 <p className="text-gray-300">
-                  Founded in 2018, Crevexa has helped over 150 companies scale
+                  Founded in 2025, Crevexa has helped over 150 companies scale
                   their digital presence and achieve unprecedented growth. Our
                   team combines strategic thinking with tactical execution to
                   deliver measurable results.
@@ -695,7 +695,7 @@ const WholeSite = () => {
               </div>
               <p className="text-gray-400">
                 Empowering businesses with cutting-edge digital marketing
-                strategies since 2018.
+                strategies since 2025.
               </p>
               <p className="text-gray-400">Follow Us</p>
               <div className="flex space-x-4">
@@ -763,12 +763,10 @@ const WholeSite = () => {
                       <h3 className="text-xl font-semibold text-white mb-2">
                         Email Us
                       </h3>
-                      <p className="text-gray-300">hello@crevexa.com</p>
-                      <p className="text-gray-300">support@crevexa.com</p>
+                      <p className="text-gray-300">crevexamedia@gmail.com</p>
                     </div>
                   </div>
-
-                  <div className="flex items-start space-x-4">
+                  {/* <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                       <Phone className="h-6 w-6 text-white" />
                     </div>
@@ -792,7 +790,7 @@ const WholeSite = () => {
                       <p className="text-gray-300">123 Digital Avenue</p>
                       <p className="text-gray-300">New York, NY 10001</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
