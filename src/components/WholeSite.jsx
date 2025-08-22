@@ -314,8 +314,8 @@ const WholeSite = () => {
                 </p>
               </div>
               {modalData && (
-                <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center z-50">
-                  <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl shadow-2xl border border-slate-700 rounded-2xl shadow-lg p-6 h-70 w-150 relative">
+                <div className="fixed h-full bg-slate-800 bg-opacity-10 inset-0 flex items-center justify-center z-55">
+                  <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl shadow-2xl border border-slate-700 rounded-2xl shadow-lg p-6 h-70 md:h-65 w-80 md:w-120 relative">
                     {/* Close Button */}
                     <button
                       onClick={closeModal}
@@ -325,20 +325,22 @@ const WholeSite = () => {
                     </button>
 
                     {/* JSON Content */}
-                    <h2 className="text-5xl font-semibold mb-2">
+                    <h2 className="text-xl md:text-3xl font-semibold mb-2">
                       {modalData.title}
                     </h2>
-                    <p className="text-2xl my-4">{modalData.description}</p>
+                    <p className="text-xl md:text-xl my-4">
+                      {modalData.description}
+                    </p>
 
                     {modalData.email && (
-                      <p className="text-xl">
-                        <strong>Email:</strong> {modalData.email}
+                      <p className="text-lg md:text-xl">
+                        <strong>Email:</strong> {modalData?.email}
                       </p>
                     )}
 
                     {modalData.phone && (
-                      <p className="text-xl text-gray-700">
-                        <strong>Phone:</strong> {modalData.phone}
+                      <p className="text-xl md:text-xl text-gray-700">
+                        <strong>Phone:</strong> {modalData?.phone}
                       </p>
                     )}
 
@@ -355,10 +357,10 @@ const WholeSite = () => {
                 <button
                   onClick={() =>
                     openModal({
-                      title: "Contact Us",
+                      title: "Connect with us",
                       description:
                         "Get in touch with our team. We usually respond within 24 hours.",
-                      email: "support@example.com",
+                      email: "crevexamedia@gmail.com",
                     })
                   }
                   className="cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
