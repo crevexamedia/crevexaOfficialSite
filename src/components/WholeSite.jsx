@@ -32,6 +32,7 @@ const WholeSite = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [isVisible, setIsVisible] = useState({});
+  const [isOpen, setIsOpen] = useState(false);
 
   // Intersection Observer for animations
   useEffect(() => {
@@ -211,6 +212,10 @@ const WholeSite = () => {
     setActiveSection(sectionId);
     setIsMenuOpen(false);
   };
+  const [modalData, setModalData] = useState(null);
+
+  const openModal = (data) => setModalData(data);
+  const closeModal = () => setModalData(null);
 
   return (
     <div className="min-h-screen bg-slate-900 text-white overflow-x-hidden">
@@ -308,16 +313,63 @@ const WholeSite = () => {
                   strategies, innovative tech, and unmatched creativity.
                 </p>
               </div>
+              {modalData && (
+                <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center z-50">
+                  <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl shadow-2xl border border-slate-700 rounded-2xl shadow-lg p-6 h-70 w-150 relative">
+                    {/* Close Button */}
+                    <button
+                      onClick={closeModal}
+                      className="cursor-pointer absolute top-3 right-3 text-gray-500 hover:text-white"
+                    >
+                      ✕
+                    </button>
 
+                    {/* JSON Content */}
+                    <h2 className="text-5xl font-semibold mb-2">
+                      {modalData.title}
+                    </h2>
+                    <p className="text-2xl my-4">{modalData.description}</p>
+
+                    {modalData.email && (
+                      <p className="text-xl">
+                        <strong>Email:</strong> {modalData.email}
+                      </p>
+                    )}
+
+                    {modalData.phone && (
+                      <p className="text-xl text-gray-700">
+                        <strong>Phone:</strong> {modalData.phone}
+                      </p>
+                    )}
+
+                    <button
+                      onClick={closeModal}
+                      className="cursor-pointer mt-4 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg hover:bg-blue-700"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              )}
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => scrollToSection("contact")}
-                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
+                  onClick={() =>
+                    openModal({
+                      title: "Contact Us",
+                      description:
+                        "Get in touch with our team. We usually respond within 24 hours.",
+                      email: "support@example.com",
+                    })
+                  }
+                  className="cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
                 >
                   Connect With Us
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="border border-gray-600 hover:border-gray-500 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-gray-800 flex items-center justify-center group">
+                <button
+                  disabled
+                  className="cursor-not-allowed border border-gray-600 hover:border-gray-500 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-gray-800 flex items-center justify-center group"
+                >
                   <Play className="mr-2 h-5 w-5" />
                   Watch Our Story
                 </button>
