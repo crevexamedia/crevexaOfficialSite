@@ -389,7 +389,7 @@ const WholeSite = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-slate-800/50">
+      <section id="about" className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
@@ -551,7 +551,7 @@ const WholeSite = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-slate-800/50">
+      {/* <section id="portfolio" className="py-20 bg-slate-800/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4">
@@ -603,7 +603,7 @@ const WholeSite = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section id="team" className="py-20">
@@ -701,16 +701,16 @@ const WholeSite = () => {
               </p>
               <p className="text-gray-400">Follow Us</p>
               <div className="flex space-x-4">
-                <button className="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
+                <button className="cursor-pointer w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                   <Facebook className="h-5 w-5 text-gray-400 hover:text-white" />
                 </button>
-                <button className="w-10 h-10 bg-slate-800 hover:bg-blue-400 rounded-lg flex items-center justify-center transition-colors">
+                <button className="cursor-pointer w-10 h-10 bg-slate-800 hover:bg-blue-400 rounded-lg flex items-center justify-center transition-colors">
                   <Twitter className="h-5 w-5 text-gray-400 hover:text-white" />
                 </button>
-                <button className="w-10 h-10 bg-slate-800 hover:bg-pink-500 rounded-lg flex items-center justify-center transition-colors">
+                <button className="cursor-pointer w-10 h-10 bg-slate-800 hover:bg-pink-500 rounded-lg flex items-center justify-center transition-colors">
                   <Instagram className="h-5 w-5 text-gray-400 hover:text-white" />
                 </button>
-                <button className="w-10 h-10 bg-slate-800 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors">
+                <button className="cursor-pointer w-10 h-10 bg-slate-800 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors">
                   <Linkedin className="h-5 w-5 text-gray-400 hover:text-white" />
                 </button>
               </div>
@@ -719,16 +719,16 @@ const WholeSite = () => {
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-white">Services</h3>
               <div className="space-y-2">
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Influencer Marketing
                 </button>
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Performance Marketing
                 </button>
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Campaign Management
                 </button>
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Editing Services
                 </button>
               </div>
@@ -737,16 +737,16 @@ const WholeSite = () => {
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-white">Company</h3>
               <div className="space-y-2">
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   About Us
                 </button>
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Our Team
                 </button>
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Careers
                 </button>
-                <button className="block text-gray-400 hover:text-white transition-colors">
+                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
                   Contact
                 </button>
               </div>
@@ -765,7 +765,9 @@ const WholeSite = () => {
                       <h3 className="text-xl font-semibold text-white mb-2">
                         Email Us
                       </h3>
-                      <p className="text-gray-300">crevexamedia@gmail.com</p>
+                      <p className="text-gray-300 hover:text-white cursor-pointer">
+                        crevexamedia@gmail.com
+                      </p>
                     </div>
                   </div>
                   {/* <div className="flex items-start space-x-4">
@@ -803,13 +805,13 @@ const WholeSite = () => {
               © 2025 Crevexa. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <button className="text-gray-400 hover:text-white text-sm transition-colors">
+              <button className="cursor-pointer text-gray-400 hover:text-white text-sm transition-colors">
                 Privacy Policy
               </button>
-              <button className="text-gray-400 hover:text-white text-sm transition-colors">
+              <button className="cursor-pointer text-gray-400 hover:text-white text-sm transition-colors">
                 Terms of Service
               </button>
-              <button className="text-gray-400 hover:text-white text-sm transition-colors">
+              <button className="cursor-pointer text-gray-400 hover:text-white text-sm transition-colors">
                 Cookie Policy
               </button>
             </div>
