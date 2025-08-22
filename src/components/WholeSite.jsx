@@ -296,7 +296,7 @@ const WholeSite = () => {
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                    Marketing -
+                    Influencer Marketing
                   </span>
                   <br />
                   <span className="text-white text-3xl lg:text-6xl">
@@ -323,7 +323,8 @@ const WholeSite = () => {
                 </button>
               </div>
 
-              <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-800">
+              {/* Data Showcasing */}
+              {/* <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-800">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-400">150+</div>
                   <div className="text-gray-400">Happy Clients</div>
@@ -338,7 +339,7 @@ const WholeSite = () => {
                   <div className="text-3xl font-bold text-pink-400">300%</div>
                   <div className="text-gray-400">Avg. Growth</div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="relative">
