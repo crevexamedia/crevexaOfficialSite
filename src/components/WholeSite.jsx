@@ -411,10 +411,9 @@ const WholeSite = () => {
 
               <div className="space-y-4">
                 <p className="text-gray-300">
-                  Founded in 2025, Crevexa has already partnered with 150+
-                  companies worldwide, from startups to Fortune 500s, generating
-                  over $50M in additional revenue through innovative strategies
-                  that actually work.
+                  Founded in 2025, Crevexa has been empowering brands with
+                  data-driven strategies, innovative technology, and creative
+                  excellence to achieve sustainable growth.
                 </p>
               </div>
 
