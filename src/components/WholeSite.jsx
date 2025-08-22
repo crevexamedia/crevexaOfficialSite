@@ -22,6 +22,10 @@ import {
   Globe,
   Smartphone,
   BarChart3,
+  CalendarCheck,
+  Scissors,
+  UserRound,
+  Camera,
 } from "lucide-react";
 
 const WholeSite = () => {
@@ -63,74 +67,73 @@ const WholeSite = () => {
   // Services data
   const services = [
     {
-      icon: TrendingUp,
-      title: "SEO Optimization",
-      description:
-        "Boost your search rankings with our advanced SEO strategies and technical optimization.",
-      features: [
-        "Keyword Research",
-        "On-page SEO",
-        "Technical Audits",
-        "Link Building",
-      ],
-    },
-    {
-      icon: Target,
-      title: "PPC Advertising",
-      description:
-        "Maximize ROI with targeted pay-per-click campaigns across Google Ads and social platforms.",
-      features: [
-        "Campaign Setup",
-        "Ad Copywriting",
-        "Bid Management",
-        "Performance Tracking",
-      ],
-    },
-    {
       icon: Users,
-      title: "Social Media Marketing",
+      title: "Influencer Marketing",
       description:
-        "Build your brand presence and engage audiences across all major social platforms with us.",
+        "Team up with creators who vibe with your brand and turn followers into loyal fans.",
       features: [
-        "Content Strategy",
-        "Community Management",
-        "Influencer Partnerships",
-        "Analytics",
+        "Find the right influencers",
+        "Collab & content creation",
+        "Manage partnerships",
+        "Track real impact",
       ],
     },
     {
-      icon: Globe,
-      title: "Web Development",
-      description:
-        "Create stunning, responsive websites that convert visitors into customers.",
+      icon: TrendingUp,
+      title: "Performance Marketing",
+      description: "Data-driven ads that don’t just look good — they convert.",
       features: [
-        "Responsive Design",
-        "E-commerce",
-        "CMS Integration",
-        "Performance Optimization",
+        "Paid campaigns that scale",
+        "Smart conversion tracking",
+        "A/B tests that win",
+        "Clear ROI reports",
       ],
     },
     {
-      icon: Smartphone,
-      title: "Mobile Marketing",
+      icon: CalendarCheck,
+      title: "Campaign Management",
       description:
-        "Reach customers on-the-go with mobile-optimized campaigns and app marketing.",
+        "Run smooth campaigns from start to finish — no chaos, just results.",
       features: [
-        "App Store Optimization",
-        "Mobile Ads",
-        "SMS Marketing",
-        "Push Notifications",
+        "Plan & organize",
+        "Budget like a pro",
+        "Live performance tracking",
+        "Optimize on the go",
       ],
     },
     {
-      icon: BarChart3,
-      title: "Analytics & Reporting",
-      description: "Make data-driven decisions with comprehensive analytics.",
+      icon: Scissors,
+      title: "Editing Services",
+      description:
+        "Polished edits that keep your content sharp, on-brand, and scroll-stopping.",
       features: [
-        "Custom Dashboards",
-        "ROI Tracking",
-        "A/B Testing",
-        "Performance Reports",
+        "Photo retouching",
+        "Video edits",
+        "Color grading",
+        "Consistent brand look",
+      ],
+    },
+    {
+      icon: UserRound,
+      title: "Freelance Models",
+      description: "Authentic faces that bring your brand stories to life.",
+      features: [
+        "Model scouting",
+        "Flexible bookings",
+        "Brand-fit matching",
+        "Creative portfolios",
+      ],
+    },
+    {
+      icon: Camera,
+      title: "On-demand Photographers",
+      description:
+        "Book skilled photographers anytime, anywhere — get shots that stand out.",
+      features: [
+        "Event Photography",
+        "Product Shoots",
+        "Lifestyle Photography",
+        "Fast Turnaround",
       ],
     },
   ];
@@ -293,15 +296,16 @@ const WholeSite = () => {
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                    Digital Marketing
+                    Marketing -
                   </span>
                   <br />
-                  <span className="text-white">That Delivers</span>
+                  <span className="text-white text-3xl lg:text-6xl">
+                    That Drives Growth
+                  </span>
                 </h1>
                 <p className="text-xl text-gray-300 max-w-lg">
-                  We help ambitious brands dominate their markets with
-                  data-driven strategies, cutting-edge technology, and creative
-                  excellence.
+                  We help ambitious brands win their markets with data-driven
+                  strategies, innovative tech, and unmatched creativity.
                 </p>
               </div>
 
@@ -397,39 +401,37 @@ const WholeSite = () => {
                   </span>
                 </h2>
                 <p className="text-xl text-gray-300">
-                  We're not just another marketing agency. We're growth partners
-                  who believe in the power of data, creativity, and relentless
-                  optimization.
+                  At Crevexa, we’re more than just another marketing agency —
+                  we’re your growth partners. By combining data, creativity, and
+                  relentless optimization, we help brands scale their digital
+                  presence and achieve measurable results.
                 </p>
               </div>
 
               <div className="space-y-4">
                 <p className="text-gray-300">
-                  Founded in 2025, Crevexa has helped over 150 companies scale
-                  their digital presence and achieve unprecedented growth. Our
-                  team combines strategic thinking with tactical execution to
-                  deliver measurable results.
-                </p>
-                <p className="text-gray-300">
-                  From startups to Fortune 500 companies, we've generated over
-                  $50M in additional revenue for our clients through innovative
-                  digital marketing strategies.
+                  Founded in 2025, Crevexa has already partnered with 150+
+                  companies worldwide, from startups to Fortune 500s, generating
+                  over $50M in additional revenue through innovative strategies
+                  that actually work.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Zap className="h-8 w-8 text-blue-400" />
-                  <h3 className="font-semibold text-white">Lightning Fast</h3>
+                  <h3 className="font-semibold text-white">Speed to Impact</h3>
                   <p className="text-sm text-gray-400">
-                    Quick implementation and rapid results
+                    Rapid execution that drives results fast.
                   </p>
                 </div>
                 <div className="space-y-2">
                   <Award className="h-8 w-8 text-purple-400" />
-                  <h3 className="font-semibold text-white">Award Winning</h3>
+                  <h3 className="font-semibold text-white">
+                    Proven Excellence
+                  </h3>
                   <p className="text-sm text-gray-400">
-                    Recognized industry leaders
+                    Trusted by brands, backed by results.
                   </p>
                 </div>
               </div>
@@ -440,9 +442,9 @@ const WholeSite = () => {
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold text-white">Our Mission</h3>
                   <p className="text-gray-300">
-                    To empower businesses with cutting-edge digital marketing
-                    strategies that drive real, measurable growth in an
-                    ever-evolving digital landscape.
+                    Empowering businesses with next-gen digital strategies that
+                    fuel growth, deliver measurable impact, and keep brands
+                    ahead in a fast-changing world.
                   </p>
 
                   <div className="space-y-4">
@@ -450,10 +452,10 @@ const WholeSite = () => {
                       <CheckCircle className="h-6 w-6 text-green-400 mt-0.5" />
                       <div>
                         <h4 className="font-semibold text-white">
-                          Data-Driven Approach
+                          Insight-Powered
                         </h4>
                         <p className="text-sm text-gray-400">
-                          Every decision backed by analytics
+                          Smart moves driven by real data.
                         </p>
                       </div>
                     </div>
@@ -461,10 +463,10 @@ const WholeSite = () => {
                       <CheckCircle className="h-6 w-6 text-blue-400 mt-0.5" />
                       <div>
                         <h4 className="font-semibold text-white">
-                          Full-Service Solutions
+                          All-in-One Growth
                         </h4>
                         <p className="text-sm text-gray-400">
-                          Complete digital marketing ecosystem
+                          From strategy to execution, we cover it all.
                         </p>
                       </div>
                     </div>
@@ -472,10 +474,10 @@ const WholeSite = () => {
                       <CheckCircle className="h-6 w-6 text-purple-400 mt-0.5" />
                       <div>
                         <h4 className="font-semibold text-white">
-                          Transparent Reporting
+                          Radical Transparency
                         </h4>
                         <p className="text-sm text-gray-400">
-                          Clear insights and performance metrics
+                          Clear metrics, zero guesswork.
                         </p>
                       </div>
                     </div>
@@ -498,8 +500,8 @@ const WholeSite = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Comprehensive digital marketing solutions designed to accelerate
-              your business growth and maximize your online presence.
+              Powerful digital marketing solutions built to fuel business growth
+              and amplify your online presence.
             </p>
           </div>
 
@@ -559,8 +561,8 @@ const WholeSite = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Real results for real businesses. See how we've helped our clients
-              achieve extraordinary growth and market success.
+              Real businesses. Real results. See how Crevexa turns growth goals
+              into market victories.
             </p>
           </div>
 
@@ -614,8 +616,8 @@ const WholeSite = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              The brilliant minds behind Crevexa. Our diverse team brings
-              together expertise in strategy, creativity, and technology.
+              The visionaries driving Crevexa forward. Our team blends strategy,
+              creativity, and technology to build impactful growth stories.
             </p>
           </div>
 
@@ -694,7 +696,7 @@ const WholeSite = () => {
                 Crevexa
               </div>
               <p className="text-gray-400">
-                Empowering businesses with cutting-edge digital marketing
+                Driving business growth with next-gen digital marketing
                 strategies since 2025.
               </p>
               <p className="text-gray-400">Follow Us</p>
@@ -718,16 +720,16 @@ const WholeSite = () => {
               <h3 className="text-lg font-semibold text-white">Services</h3>
               <div className="space-y-2">
                 <button className="block text-gray-400 hover:text-white transition-colors">
-                  SEO Optimization
+                  Influencer Marketing
                 </button>
                 <button className="block text-gray-400 hover:text-white transition-colors">
-                  PPC Advertising
+                  Performance Marketing
                 </button>
                 <button className="block text-gray-400 hover:text-white transition-colors">
-                  Social Media
+                  Campaign Management
                 </button>
                 <button className="block text-gray-400 hover:text-white transition-colors">
-                  Web Development
+                  Editing Services
                 </button>
               </div>
             </div>
