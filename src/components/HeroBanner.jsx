@@ -145,7 +145,7 @@ const HeroBanner = () => {
                   <div className="flex items-center justify-between">
                     <h3 className="text-xl font-semibold">What We Deliver</h3>
                     <div className="flex items-center space-x-2 text-green-400">
-                      {/* <TrendingUp className="h-5 w-5" /> */}
+                      {/* <TrendingUp className="h-5 w-5" />   */}
                       {/* <span className="text-sm">+45% this month</span> */}
                     </div>
                   </div>
