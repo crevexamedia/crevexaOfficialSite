@@ -1,4 +1,4 @@
-import WholeSite from "./components/WholeSite";
+import WholeSite from "./pages/WholeSite.jsx";
 
 function App() {
   return (
