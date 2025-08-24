@@ -1,24 +1,38 @@
 import AboutPage from "./pages/AboutPage.jsx";
+import CareersPage from "./pages/CareersPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 import ServicesPage from "./pages/ServicesPage.jsx";
 import TeamPage from "./pages/TeamPage.jsx";
 import WholeSite from "./pages/WholeSite.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ScrollToTop from "./Utility/ScrollToTop.jsx";
 
 function App() {
   // Routing
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <WholeSite />,
+      element: (
+        <ScrollToTop>
+          <WholeSite />
+        </ScrollToTop>
+      ),
     },
     {
       path: "/about",
-      element: <AboutPage />,
+      element: (
+        <ScrollToTop>
+          <AboutPage />
+        </ScrollToTop>
+      ),
     },
     {
       path: "/services",
-      element: <ServicesPage />,
+      element: (
+        <ScrollToTop>
+          <ServicesPage />
+        </ScrollToTop>
+      ),
     },
     // {
     //   path: "/portfolio",
@@ -26,7 +40,19 @@ function App() {
     // },
     {
       path: "/team",
-      element: <TeamPage />,
+      element: (
+        <ScrollToTop>
+          <TeamPage />
+        </ScrollToTop>
+      ),
+    },
+    {
+      path: "/careers",
+      element: (
+        <ScrollToTop>
+          <CareersPage />
+        </ScrollToTop>
+      ),
     },
   ]);
 

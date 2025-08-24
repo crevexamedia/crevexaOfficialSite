@@ -43,18 +43,24 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-white">Services</h3>
               <div className="space-y-2">
-                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
+                <p className="cursor-default block text-gray-400 hover:text-white transition-colors">
                   Influencer Marketing
-                </button>
-                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
+                </p>
+                <p className="cursor-default block text-gray-400 hover:text-white transition-colors">
                   Performance Marketing
-                </button>
-                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
+                </p>
+                <p className="cursor-default block text-gray-400 hover:text-white transition-colors">
                   Campaign Management
-                </button>
-                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
+                </p>
+                <p className="cursor-default block text-gray-400 hover:text-white transition-colors">
                   Editing Services
-                </button>
+                </p>
+                <p className="cursor-default block text-gray-400 hover:text-white transition-colors">
+                  Freelance Models
+                </p>
+                <p className="cursor-default block text-gray-400 hover:text-white transition-colors">
+                  On-demand Photographers
+                </p>
               </div>
             </div>
 
@@ -74,12 +80,18 @@ const Footer = () => {
                 >
                   Our Team
                 </Link>
-                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to={`/careers`}
+                  className="cursor-pointer block text-gray-400 hover:text-white transition-colors"
+                >
                   Careers
-                </button>
-                <button className="cursor-pointer block text-gray-400 hover:text-white transition-colors">
+                </Link>
+                <Link
+                  to={`/`}
+                  className="cursor-pointer block text-gray-400 hover:text-white transition-colors"
+                >
                   Contact
-                </button>
+                </Link>
               </div>
             </div>
 

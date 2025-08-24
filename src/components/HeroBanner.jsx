@@ -164,7 +164,7 @@ const HeroBanner = () => {
                       <div className="text-sm text-gray-400">Data-driven</div>
                     </div>
                     <div className="bg-slate-700/50 p-4 rounded-lg">
-                      <div className="text-xl lg:text-xl font-bold text-green-400">
+                      <div className="text-xl lg:text-xl font-bold text-purple-300">
                         Our Approach
                       </div>
                       <div className="text-sm text-gray-400">
