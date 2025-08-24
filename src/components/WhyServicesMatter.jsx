@@ -5,7 +5,7 @@ const WhyServicesMatter = () => {
     {
       title: "Influencer Marketing",
       description:
-        "People don’t connect with ads, they connect with people. Influencers bring authenticity, credibility, and reach — turning trust into growth 🚀.",
+        "People don’t connect with ads, they connect with people. Influencers bring authenticity, credibility, and reach — turning trust into growth.",
     },
     {
       title: "Performance Marketing",
@@ -35,7 +35,7 @@ const WhyServicesMatter = () => {
   ];
 
   return (
-    <section className="py-20 bg-slate-900 border-t border-slate-800">
+    <section className="py-5 pb-20 bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">

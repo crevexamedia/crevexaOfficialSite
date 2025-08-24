@@ -1,6 +1,7 @@
 import React from "react";
 import { Briefcase, Users, Rocket, HeartHandshake } from "lucide-react";
 import { Link } from "react-router-dom";
+import CareersForm from "./CareersForm";
 
 const CareersSection = () => {
   const openings = [
@@ -10,12 +11,12 @@ const CareersSection = () => {
     //   type: "Full-time",
     //   applyLink: "",
     // },
-    // {
-    //   title: "Creative Content Designer",
-    //   location: "Bangalore, India",
-    //   type: "Full-time",
-    //   applyLink: "",
-    // },
+    {
+      title: "Creative Content Designer",
+      location: "Bangalore, India",
+      type: "Full-time",
+      applyLink: "",
+    },
   ];
 
   return (
@@ -100,12 +101,15 @@ const CareersSection = () => {
                 We’re always on the lookout for talented individuals. Send us
                 your resume and let’s connect.
               </p>
-              <Link
-                to={"mailto:crevexamedia@gmail.com"}
-                className="bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition"
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=crevexamedia@gmail.com&su=Job%20Application&body=Hello%20Team,%0D%0A%0D%0APlease%20find%20my%20resume%20attached.%0D%0A%0D%0ARegards,"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition"
               >
                 Send Resume
-              </Link>
+              </a>
+              {/* <CareersForm /> do not uncomment */}
             </section>
           </div>
         ) : (
