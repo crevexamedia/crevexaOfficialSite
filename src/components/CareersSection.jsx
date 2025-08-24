@@ -13,7 +13,7 @@ const CareersSection = () => {
     // },
     {
       title: "Creative Content Designer",
-      location: "Bangalore, India",
+      location: "Mumbai, India",
       type: "Full-time",
       applyLink: "",
     },
