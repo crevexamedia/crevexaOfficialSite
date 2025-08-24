@@ -152,19 +152,19 @@ const HeroBanner = () => {
 
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-slate-700/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-400">
+                      <div className="text-xl lg:text-2xl font-bold text-blue-400">
                         Your Growth
                       </div>
                       <div className="text-sm text-gray-400">Our priority</div>
                     </div>
                     <div className="bg-slate-700/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-purple-400">
+                      <div className="text-xl lg:text-2xl font-bold text-purple-400">
                         Our Strategy
                       </div>
                       <div className="text-sm text-gray-400">Data-driven</div>
                     </div>
                     <div className="bg-slate-700/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-green-400">
+                      <div className="text-xl lg:text-xl font-bold text-green-400">
                         Our Approach
                       </div>
                       <div className="text-sm text-gray-400">
@@ -172,7 +172,7 @@ const HeroBanner = () => {
                       </div>
                     </div>
                     <div className="bg-slate-700/50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-pink-400">
+                      <div className="text-lg lg:text-2xl font-bold text-pink-400">
                         Our Commitment
                       </div>
                       <div className="text-sm text-gray-400">
