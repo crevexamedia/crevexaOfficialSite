@@ -11,12 +11,12 @@ const CareersSection = () => {
     //   type: "Full-time",
     //   applyLink: "",
     // },
-    {
-      title: "Creative Content Designer",
-      location: "Mumbai, India",
-      type: "Full-time",
-      applyLink: "",
-    },
+    // {
+    //   title: "Creative Content Designer",
+    //   location: "Mumbai, India",
+    //   type: "Full-time",
+    //   applyLink: "",
+    // },
   ];
 
   return (
