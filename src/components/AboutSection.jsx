@@ -11,7 +11,7 @@ const AboutSection = () => {
             <div className="space-y-4">
               <h2 className="text-4xl lg:text-5xl font-bold">
                 <span className="text-white">About</span>{" "}
-                <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                   Crevexa
                 </span>
               </h2>

@@ -23,7 +23,7 @@ const CareersSection = () => {
     <div className="bg-slate-900 text-white min-h-screen">
       {/* Hero Section */}
       <section className="py-20 text-center px-6">
-        <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
           Build Your Career at Crevexa
         </h1>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto">
@@ -86,7 +86,7 @@ const CareersSection = () => {
                 </div>
                 <Link
                   to={job.applyLink}
-                  className="mt-4 md:mt-0 bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-2 rounded-lg font-medium hover:opacity-90 transition"
+                  className="mt-4 md:mt-0 bg-gradient-to-r from-blue-500 to-purple-500 px-6 py-2 rounded-lg font-medium hover:opacity-80 transition"
                 >
                   Apply Now
                 </Link>
@@ -105,7 +105,7 @@ const CareersSection = () => {
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=crevexamedia@gmail.com&su=Job%20Application&body=Hello%20Team,%0D%0A%0D%0APlease%20find%20my%20resume%20attached.%0D%0A%0D%0ARegards,"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition"
+                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:opacity-80 transition"
               >
                 Send Resume
               </a>

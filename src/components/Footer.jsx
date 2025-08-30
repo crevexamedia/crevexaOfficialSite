@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Brand Section */}
             <div className="space-y-4">
-              <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                 Crevexa
               </div>
               <p className="text-gray-400">
@@ -101,7 +101,7 @@ const Footer = () => {
               <div className="space-y-8">
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
                       <Mail className="h-6 w-6 text-white" />
                     </div>
                     <div>

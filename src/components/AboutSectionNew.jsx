@@ -7,7 +7,7 @@ const AboutSectionNew = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-12 text-center">
         <h2 className="text-4xl lg:text-5xl font-extrabold mb-6">
           Why{" "}
-          <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
             Crevexa?
           </span>
         </h2>

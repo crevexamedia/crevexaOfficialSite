@@ -90,7 +90,7 @@ const ServiceSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4">
               <span className="text-white">Our</span>{" "}
-              <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                 Services
               </span>
             </h2>
@@ -134,7 +134,7 @@ const ServiceSection = () => {
                       ))}
                     </div>
 
-                    <button className="w-full bg-gradient-to-r from-blue-600/20 to-purple-600/20 hover:from-blue-600/40 hover:to-purple-600/40 border border-slate-600 hover:border-slate-500 text-white py-3 rounded-lg font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600">
+                    <button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-400 hover:to-purple-400 border border-slate-600 hover:border-slate-500 text-white py-3 rounded-lg font-medium transition-all duration-300 group-hover:bg-gradient-to-r">
                       Learn More
                     </button>
                   </div>
